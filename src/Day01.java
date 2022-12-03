@@ -3,14 +3,14 @@ import java.io.IOException;
 import java.util.Scanner;
 import java.util.Vector;
 
-public class Day1 {
+public class Day01 {
     /**
      *Iterate through the file and if the sum of the section is greater than max, replace max
      */
     public static void part1(){
         try{
             //Read the file
-            File elfCalories = new File("Puzzles/Day1.txt");
+            File elfCalories = new File("Puzzles/Day01.txt");
             Scanner reader = new Scanner(elfCalories);
 
             int max = 0;
@@ -40,7 +40,7 @@ public class Day1 {
     public static void part2(){
         try{
             //Read the file
-            File elfCalories = new File("Puzzles/Day1.txt");
+            File elfCalories = new File("Puzzles/Day01.txt");
             Scanner reader = new Scanner(elfCalories);
 
             //create vector
